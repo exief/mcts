@@ -9,7 +9,7 @@ endif()
 add_library(catch_main STATIC catch_main.cpp)
 target_link_libraries(catch_main PUBLIC CONAN_PKG::catch2)
 
-add_executable(tests tests.cpp)
+add_executable(tests tests.cpp ../src/Node/Node.cpp ../src/Node/Node.h)
 target_link_libraries(tests PRIVATE project_warnings project_options
                                     catch_main)
 

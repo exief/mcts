@@ -1,4 +1,4 @@
-# cpp_starter_project
+# C++ Monte-Carlo Tree Search
 
 [![codecov](https://codecov.io/gh/lefticus/cpp_starter_project/branch/master/graph/badge.svg)](https://codecov.io/gh/lefticus/cpp_starter_project)
 
